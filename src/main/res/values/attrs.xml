@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LabelText">
+        <attr name="label" format="string|reference" />
+        <attr name="value" format="string|reference" />
+        <attr name="labelColor" format="color|reference" />
+        <attr name="valueColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SettingMenu">
+        <attr name="label"/>
+        <attr name="icon"/>
+        <attr name="textSize" format="dimension|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SplitLine">
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="textPosition" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="splitColor" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyRadioButton">
+        <attr name="android:value"/>
+    </declare-styleable>
+</resources>
