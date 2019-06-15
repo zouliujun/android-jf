@@ -1,6 +1,8 @@
 #jf-android
 android library项目，集成volley，eventbus，logback, butterknife，gson，recyclerview，appcompat等库，包含常用UI基类和一些常用工具。
 
+[![](https://jitpack.io/v/zouliujun/android-jf.svg)](https://jitpack.io/#zouliujun/android-jf)
+
 项目结构如下：
 - **volley辅助类 cn\change365\framework\network**
 
